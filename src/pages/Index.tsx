@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Brain, FileText, TreeDeciduous, Layers, Users, Heart, Settings, CheckCircle2, Lightbulb, Scale, TrendingUp, Network, Eye, AlertTriangle, BookOpen, Zap, ArrowDown, Target, MessageCircle, GitBranch, Shield, Activity, Wind } from "lucide-react";
+import { Brain, FileText, TreeDeciduous, Layers, Users, Heart, Settings, CheckCircle2, Lightbulb, Scale, TrendingUp, Network, Eye, AlertTriangle, BookOpen, Zap, ArrowDown, Target, MessageCircle, GitBranch, Shield, Activity, Wind, Leaf, Sparkles, CreditCard, RefreshCw, Circle, HeartHandshake, ClipboardList, ListChecks, HelpCircle, BookMarked } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Index = () => {
@@ -221,6 +221,76 @@ const Index = () => {
       description: "Técnica dos cinco sentidos para acalmar em momentos de crise",
       path: "/autotranquilizacao",
       color: "text-therapeutic-calm",
+    },
+    {
+      icon: Leaf,
+      title: "Estilo de Vida e Ansiedade",
+      description: "Explore como hábitos diários influenciam os níveis de ansiedade",
+      path: "/estilo-vida-ansiedade",
+      color: "text-therapeutic-growth",
+    },
+    {
+      icon: Sparkles,
+      title: "Técnicas de Relaxamento",
+      description: "Métodos práticos para reduzir tensão e promover bem-estar",
+      path: "/tecnicas-relaxamento",
+      color: "text-therapeutic-trust",
+    },
+    {
+      icon: CreditCard,
+      title: "Cartões Anti-Pânico",
+      description: "Crie cartões de apoio rápido para momentos de crise",
+      path: "/cartoes-anti-panico",
+      color: "text-therapeutic-warmth",
+    },
+    {
+      icon: RefreshCw,
+      title: "Ciclo da Ansiedade",
+      description: "Compreenda como a ansiedade se mantém e perpetua",
+      path: "/ciclo-ansiedade",
+      color: "text-therapeutic-calm",
+    },
+    {
+      icon: Circle,
+      title: "Círculo de Controle",
+      description: "Identifique o que pode e não pode controlar nas situações",
+      path: "/circulo-controle",
+      color: "text-therapeutic-growth",
+    },
+    {
+      icon: BookOpen,
+      title: "Compreendendo a Ansiedade",
+      description: "Psicoeducação sobre natureza e manifestações da ansiedade",
+      path: "/compreendendo-ansiedade",
+      color: "text-therapeutic-trust",
+    },
+    {
+      icon: Target,
+      title: "Plano de Enfrentamento de Medos",
+      description: "Estruture um plano gradual para enfrentar medos específicos",
+      path: "/plano-enfrentamento-medos",
+      color: "text-therapeutic-warmth",
+    },
+    {
+      icon: ClipboardList,
+      title: "Contrato de Enfrentamento",
+      description: "Comprometa-se formalmente com o processo de enfrentamento",
+      path: "/contrato-enfrentamento",
+      color: "text-therapeutic-calm",
+    },
+    {
+      icon: HelpCircle,
+      title: "Desafio à Incerteza",
+      description: "Trabalhe a tolerância à incerteza e ambiguidade",
+      path: "/desafio-incerteza",
+      color: "text-therapeutic-growth",
+    },
+    {
+      icon: BookMarked,
+      title: "Diário de Preocupações",
+      description: "Registe e analise preocupações de forma estruturada",
+      path: "/diario-preocupacoes",
+      color: "text-therapeutic-trust",
     },
   ];
 
