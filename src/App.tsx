@@ -36,6 +36,16 @@ import PlanoSeguranca from "./pages/PlanoSeguranca";
 import MonitoramentoAnsiedade from "./pages/MonitoramentoAnsiedade";
 import ArvoreDecisao from "./pages/ArvoreDecisao";
 import Autotranquilizacao from "./pages/Autotranquilizacao";
+import EstiloVidaAnsiedade from "./pages/EstiloVidaAnsiedade";
+import TecnicasRelaxamento from "./pages/TecnicasRelaxamento";
+import CartoesAntiPanico from "./pages/CartoesAntiPanico";
+import CicloAnsiedade from "./pages/CicloAnsiedade";
+import CirculoControle from "./pages/CirculoControle";
+import CompreendendoAnsiedade from "./pages/CompreendendoAnsiedade";
+import PlanoEnfrentamentoMedos from "./pages/PlanoEnfrentamentoMedos";
+import ContratoEnfrentamento from "./pages/ContratoEnfrentamento";
+import DesafioIncerteza from "./pages/DesafioIncerteza";
+import DiarioPreocupacoes from "./pages/DiarioPreocupacoes";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -80,6 +90,16 @@ const App = () => (
           <Route path="/monitoramento-ansiedade" element={<MonitoramentoAnsiedade />} />
           <Route path="/arvore-decisao" element={<ArvoreDecisao />} />
           <Route path="/autotranquilizacao" element={<Autotranquilizacao />} />
+          <Route path="/estilo-vida-ansiedade" element={<EstiloVidaAnsiedade />} />
+          <Route path="/tecnicas-relaxamento" element={<TecnicasRelaxamento />} />
+          <Route path="/cartoes-anti-panico" element={<CartoesAntiPanico />} />
+          <Route path="/ciclo-ansiedade" element={<CicloAnsiedade />} />
+          <Route path="/circulo-controle" element={<CirculoControle />} />
+          <Route path="/compreendendo-ansiedade" element={<CompreendendoAnsiedade />} />
+          <Route path="/plano-enfrentamento-medos" element={<PlanoEnfrentamentoMedos />} />
+          <Route path="/contrato-enfrentamento" element={<ContratoEnfrentamento />} />
+          <Route path="/desafio-incerteza" element={<DesafioIncerteza />} />
+          <Route path="/diario-preocupacoes" element={<DiarioPreocupacoes />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
